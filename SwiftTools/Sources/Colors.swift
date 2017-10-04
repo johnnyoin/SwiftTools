@@ -18,11 +18,11 @@ extension UIColor {
     self.init(red: red, green: green, blue: blue, alpha: 1)
   }
   
-  func translucent(alpha: CGFloat = 0.5) -> UIColor {
+  public func translucent(alpha: CGFloat = 0.5) -> UIColor {
     return self.withAlphaComponent(alpha)
   }
   
-  func lighter() -> UIColor {
+  public func lighter() -> UIColor {
     var h: CGFloat = 0, s: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
     if getHue(&h, saturation: &s, brightness: &b, alpha: &a) {
       return UIColor(hue: h,
@@ -34,7 +34,7 @@ extension UIColor {
     return self
   }
   
-  func darker() -> UIColor {
+  public func darker() -> UIColor {
     var h: CGFloat = 0, s: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
     if getHue(&h, saturation: &s, brightness: &b, alpha: &a) {
       return UIColor(hue: h,
@@ -46,7 +46,7 @@ extension UIColor {
     return self
   }
   
-  func convertedForNavBar() -> UIColor {
+  public func convertedForNavBar() -> UIColor {
     var red: CGFloat = 0
     var green: CGFloat = 0
     var blue: CGFloat = 0
