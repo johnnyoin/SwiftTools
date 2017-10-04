@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		056507A8D969BCB633B3381A729CE875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2758BE8F9A61C9DEAF5D31648E33078B /* Pods-SwiftTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 290ABC01E7F6AD39C329E58EF378FE5D /* Pods-SwiftTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F0B93E21F851B1A00BD686E /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B93E11F851B1A00BD686E /* Size.swift */; };
 		820A53567DB8A6526A2A811CAA486861 /* Pods-SwiftTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE42C5D8D0E44759E1D7C033742373C /* Pods-SwiftTools_Tests-dummy.m */; };
 		B604D2B0F608F3FFD06A6906959684A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D10B2CEC944509CA3BCBCCA2CB089D6A /* SwiftTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56861D3BC814ADD4A47590058151A15B /* SwiftTools-dummy.m */; };
@@ -32,7 +33,8 @@
 		290ABC01E7F6AD39C329E58EF378FE5D /* Pods-SwiftTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2FEFC2455EA296A7DF692061CF23EA02 /* Pods-SwiftTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3BE42C5D8D0E44759E1D7C033742373C /* Pods-SwiftTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		3F0B93DF1F85158A00BD686E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3F0B93DF1F85158A00BD686E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		3F0B93E11F851B1A00BD686E /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		499261890B7510EB21C17D09D470E1A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4CA07EB34279FBBED542FA4C79DA921B /* SwiftTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftTools.modulemap; sourceTree = "<group>"; };
 		56861D3BC814ADD4A47590058151A15B /* SwiftTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftTools-dummy.m"; sourceTree = "<group>"; };
@@ -72,7 +74,8 @@
 		3F0B93DE1F85158A00BD686E /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				3F0B93DF1F85158A00BD686E /* Colors.swift */,
+				3F0B93DF1F85158A00BD686E /* Color.swift */,
+				3F0B93E11F851B1A00BD686E /* Size.swift */,
 			);
 			name = Sources;
 			path = SwiftTools/Sources;
@@ -237,6 +240,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					FAA49F7B841CB0388CC166988D0E912F = {
+						LastSwiftMigration = 0900;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -269,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0B93E21F851B1A00BD686E /* Size.swift in Sources */,
 				820A53567DB8A6526A2A811CAA486861 /* Pods-SwiftTools_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FEFC2455EA296A7DF692061CF23EA02 /* Pods-SwiftTools_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -344,6 +354,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -501,6 +512,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8E3C276BADBCE03F77EE30462EFD2399 /* Pods-SwiftTools_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -525,6 +537,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";

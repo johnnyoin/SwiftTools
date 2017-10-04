@@ -1,5 +1,5 @@
 //
-//  Colors.swift
+//  Color.swift
 //  SwiftTools
 //
 //  Created by Jeremy Bouillanne on 16/09/16.
