@@ -9,9 +9,9 @@
 import Foundation
 
 extension CGSize {
-  public func constrainedInSize(_ size: CGSize) -> CGSize {
-    let xRatio = width / size.width
-    let yRatio = height / size.height
+  public func constrainedInSize(_ maxSize: CGSize) -> CGSize {
+    let xRatio = maxSize.width / width
+    let yRatio = maxSize.height / height
     let minRatio = min(xRatio, yRatio)
     return applying(CGAffineTransform(scaleX: minRatio, y: minRatio))
   }
