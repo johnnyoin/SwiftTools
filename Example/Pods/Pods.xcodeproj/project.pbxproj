@@ -10,7 +10,6 @@
 		056507A8D969BCB633B3381A729CE875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2758BE8F9A61C9DEAF5D31648E33078B /* Pods-SwiftTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 290ABC01E7F6AD39C329E58EF378FE5D /* Pods-SwiftTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		820A53567DB8A6526A2A811CAA486861 /* Pods-SwiftTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE42C5D8D0E44759E1D7C033742373C /* Pods-SwiftTools_Tests-dummy.m */; };
-		AC7ED2FC113BEA1813DD53EA47BF3EC4 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BE2AD52393B62032A20E9CBB3F8D4 /* ReplaceMe.swift */; };
 		B604D2B0F608F3FFD06A6906959684A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D10B2CEC944509CA3BCBCCA2CB089D6A /* SwiftTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56861D3BC814ADD4A47590058151A15B /* SwiftTools-dummy.m */; };
 		D96857E48131C8D839CF6EBB87488FE4 /* SwiftTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CE2C9DBAD12D623B237D43C060BFF0 /* SwiftTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,23 +27,23 @@
 
 /* Begin PBXFileReference section */
 		094B69C598BA2CE9D79A910EA41AC65E /* Pods-SwiftTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0BAA720E9E359B58D24AF1D32F661600 /* SwiftTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftTools.framework; path = SwiftTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BAA720E9E359B58D24AF1D32F661600 /* SwiftTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA303C0AC62003030BCA72180441545 /* SwiftTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTools-prefix.pch"; sourceTree = "<group>"; };
 		290ABC01E7F6AD39C329E58EF378FE5D /* Pods-SwiftTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2FEFC2455EA296A7DF692061CF23EA02 /* Pods-SwiftTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3BE42C5D8D0E44759E1D7C033742373C /* Pods-SwiftTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftTools_Tests-dummy.m"; sourceTree = "<group>"; };
+		3F0B93DF1F85158A00BD686E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		499261890B7510EB21C17D09D470E1A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4CA07EB34279FBBED542FA4C79DA921B /* SwiftTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftTools.modulemap; sourceTree = "<group>"; };
+		4CA07EB34279FBBED542FA4C79DA921B /* SwiftTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftTools.modulemap; sourceTree = "<group>"; };
 		56861D3BC814ADD4A47590058151A15B /* SwiftTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftTools-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6CE319636A8815ABE24F21F9C50D61EC /* Pods-SwiftTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SwiftTools_Tests.modulemap"; sourceTree = "<group>"; };
+		6CE319636A8815ABE24F21F9C50D61EC /* Pods-SwiftTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftTools_Tests.modulemap"; sourceTree = "<group>"; };
 		84CE2C9DBAD12D623B237D43C060BFF0 /* SwiftTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTools-umbrella.h"; sourceTree = "<group>"; };
 		8E3C276BADBCE03F77EE30462EFD2399 /* Pods-SwiftTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		987DBC850583C275ADCEFD420CE8F37D /* Pods-SwiftTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9B5B615205EA079F118E525055767E39 /* Pods_SwiftTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftTools_Tests.framework; path = "Pods-SwiftTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5B615205EA079F118E525055767E39 /* Pods_SwiftTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8AD3BD75157D05848FAC1E5229AC547 /* SwiftTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftTools.xcconfig; sourceTree = "<group>"; };
-		CF7BE2AD52393B62032A20E9CBB3F8D4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftTools/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D268FB89A322DAF701F4C2D91AE81EEC /* Pods-SwiftTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E5D9E08AF7FD002E19AF75AED912E6AD /* Pods-SwiftTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftTools_Tests-resources.sh"; sourceTree = "<group>"; };
 		F3E5FDCFCA01E32891E39378E5D58D37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F0B93DE1F85158A00BD686E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3F0B93DF1F85158A00BD686E /* Colors.swift */,
+			);
+			name = Sources;
+			path = SwiftTools/Sources;
+			sourceTree = "<group>";
+		};
 		539A3904868A88FB0F279849CC0386EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +139,7 @@
 		C361BC3051DD087F9BCCE840C0035EB0 /* SwiftTools */ = {
 			isa = PBXGroup;
 			children = (
-				CF7BE2AD52393B62032A20E9CBB3F8D4 /* ReplaceMe.swift */,
+				3F0B93DE1F85158A00BD686E /* Sources */,
 				539A3904868A88FB0F279849CC0386EA /* Support Files */,
 			);
 			name = SwiftTools;
@@ -253,7 +261,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7ED2FC113BEA1813DD53EA47BF3EC4 /* ReplaceMe.swift in Sources */,
 				D10B2CEC944509CA3BCBCCA2CB089D6A /* SwiftTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

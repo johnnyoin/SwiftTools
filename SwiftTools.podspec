@@ -26,17 +26,10 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jeremy Bouillanne' => 'john5kult@gmail.com' }
   s.source           = { :git => 'https://github.com/johnnyoin/SwiftTools.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.tvos.deployment_target = '9.0'
 
-  s.source_files = 'SwiftTools/Classes/**/*'
+  s.source_files = 'SwiftTools/Sources/**/*'
   
-  # s.resource_bundles = {
-  #   'SwiftTools' => ['SwiftTools/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

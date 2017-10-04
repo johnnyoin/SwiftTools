@@ -15,7 +15,6 @@
 		158894DA7C5583E8C2F3887F /* Pods-SwiftTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTools_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTools_Tests/Pods-SwiftTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1E6E72A51BAC22AE506D5539 /* Pods_SwiftTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2543A7E0A05E3D5B4F804BFD /* SwiftTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftTools.podspec; path = ../SwiftTools.podspec; sourceTree = "<group>"; };
-		3F0B93DB1F85113F00BD686E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		59EC138984963F232FF6314F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SwiftTools_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTools_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,19 +35,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F0B93DA1F850F4300BD686E /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3F0B93DB1F85113F00BD686E /* Colors.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				3F0B93DA1F850F4300BD686E /* Classes */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				99284D293854D93B3777EE6F /* Pods */,
