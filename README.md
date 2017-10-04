@@ -22,7 +22,7 @@ pod 'SwiftTools'
 
 ## Author
 
-johnnyoin, john5kult@gmail.com
+Jeremy Bouillanne, john5kult@gmail.com
 
 ## License
 

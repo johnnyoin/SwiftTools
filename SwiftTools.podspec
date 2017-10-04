@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftTools'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftTools.'
+  s.summary          = 'A set of tools for swift programming'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/johnnyoin/SwiftTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'johnnyoin' => 'john5kult@gmail.com' }
+  s.author           = { 'Jeremy Bouillanne' => 'john5kult@gmail.com' }
   s.source           = { :git => 'https://github.com/johnnyoin/SwiftTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

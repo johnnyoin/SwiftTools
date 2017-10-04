@@ -1,0 +1,22 @@
+{
+  "name": "SwiftTools",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/johnnyoin/SwiftTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "johnnyoin": "john5kult@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/johnnyoin/SwiftTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftTools/Classes/**/*"
+}
