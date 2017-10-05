@@ -44,4 +44,9 @@ class SizeTests: XCTestCase {
     XCTAssert(isConstrained(constrainedSize), "Constrained size shouldn't be larger than target size")
   }
   
+  func testZeroSizeReturnsItself() {
+    let size = CGSize.zero
+    let constrainedSize = size.constrainedInSize(targetSize)
+    XCTAssert(size == constrainedSize, "Zero size should return itself")
+  }
 }

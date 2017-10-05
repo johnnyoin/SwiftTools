@@ -10,6 +10,7 @@ import Foundation
 
 extension CGSize {
   public func constrainedInSize(_ maxSize: CGSize) -> CGSize {
+    guard self != .zero else { return self }
     let xRatio = maxSize.width / width
     let yRatio = maxSize.height / height
     let minRatio = min(xRatio, yRatio)
