@@ -13,6 +13,7 @@
 		3F1CBF271F86310700ADC535 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1CBF261F86310700ADC535 /* URL.swift */; };
 		3F1CBF281F86372200ADC535 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0B93DF1F85158A00BD686E /* Color.swift */; };
 		3F7D77551F94F45600A19A8D /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D77541F94F45600A19A8D /* Device.swift */; };
+		7CA0C1BD1FBAFE7C00064188 /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA0C1BC1FBAFE7C00064188 /* DispatchQueue.swift */; };
 		820A53567DB8A6526A2A811CAA486861 /* Pods-SwiftTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE42C5D8D0E44759E1D7C033742373C /* Pods-SwiftTools_Tests-dummy.m */; };
 		B604D2B0F608F3FFD06A6906959684A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		D10B2CEC944509CA3BCBCCA2CB089D6A /* SwiftTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56861D3BC814ADD4A47590058151A15B /* SwiftTools-dummy.m */; };
@@ -45,6 +46,7 @@
 		56861D3BC814ADD4A47590058151A15B /* SwiftTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftTools-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6CE319636A8815ABE24F21F9C50D61EC /* Pods-SwiftTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SwiftTools_Tests.modulemap"; sourceTree = "<group>"; };
+		7CA0C1BC1FBAFE7C00064188 /* DispatchQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueue.swift; sourceTree = "<group>"; };
 		84CE2C9DBAD12D623B237D43C060BFF0 /* SwiftTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftTools-umbrella.h"; sourceTree = "<group>"; };
 		8E3C276BADBCE03F77EE30462EFD2399 /* Pods-SwiftTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -81,6 +83,7 @@
 			children = (
 				3F0B93DF1F85158A00BD686E /* Color.swift */,
 				3F7D77541F94F45600A19A8D /* Device.swift */,
+				7CA0C1BC1FBAFE7C00064188 /* DispatchQueue.swift */,
 				3F0B93E11F851B1A00BD686E /* Size.swift */,
 				3F1CBF261F86310700ADC535 /* URL.swift */,
 			);
@@ -288,6 +291,7 @@
 				3F1CBF281F86372200ADC535 /* Color.swift in Sources */,
 				820A53567DB8A6526A2A811CAA486861 /* Pods-SwiftTools_Tests-dummy.m in Sources */,
 				3F1CBF271F86310700ADC535 /* URL.swift in Sources */,
+				7CA0C1BD1FBAFE7C00064188 /* DispatchQueue.swift in Sources */,
 				3F7D77551F94F45600A19A8D /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
